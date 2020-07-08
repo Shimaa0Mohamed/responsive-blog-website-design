@@ -18,7 +18,7 @@ header{
     grid-area: header;
     top: 0;
     color: white;
-    min-width: 99.8% auto;
+    width: 99.8% ;
     margin-bottom: 17vh;
     margin-top: 10vh;
     min-height: 2vh;
