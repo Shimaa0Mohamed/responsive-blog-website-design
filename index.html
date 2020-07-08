@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> my Blog</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css\main.css">
+</head>
+<body>
+
+	
+	<header class="header">
+	
+		 <a href="#" id="logo">My<span id="blog">Blog</span></a>
+		 <div class="nav">
+		 <span id="navv"><a href="#">Home</a>  </span> | &nbsp;
+		 <span id="navv"><a href="#">About </a></span>|&nbsp;
+		 <span id="navv"></span><a href="#">Services</a></span>
+	    </div>
+	
+	</header>
+	<div class="intro">
+		<h1>welcome &nbsp; <span class="type"></span></h1>
+	</div>
+  <!--grid container that contain pictures and blog posts and footer-->
+  <div class="container">
+	  <!--pictures-->
+		<div class="first">
+			<figure class="pic">
+				<img src="img\7.jpg" >
+				<figcaption class="content">
+				 <p> <h3>My learning joureny...</h3></p>
+				  <a href="#read" class="link"><i>Read More</i></a>
+				</figcaption>
+			</figure>
+			<figure class="pic">
+				<img src="img\9.jpg" >
+				<figcaption class="content">
+				 <P><h3> My favourie programming Languages </h3></P> 
+				  <a href="#read" class="link"><i>Read More</i></a>
+				</figcaption>
+			</figure>
+			<figure class="pic">
+				<img src="img\10.jpg" >
+				<figcaption class="content">
+				 <p> <h3>MY CV ..........</h3></p>
+				  <a href="#read" class="link"><i>Read More</i></a>
+				</figcaption>
+			</figure>
+		</div>
+		<!-- blog posts -->
+		<div class="second">
+			<h1 id="text">Blog Posts</h1>
+			<div class="post">
+				<img src="img\12.jpg"  class="post-image">
+				<div class="post-content">
+				 <p><h2><b>Sewing</b>  </h2> </p>
+				 <p><blockquote cite="https://en.wikipedia.org/wiki/Sewing"> Sewing is the craft of fastening or attaching
+				  objects using stitches made with a needle and thread.
+				   Sewing is one of the oldest of the textile arts,
+				    arising in the Paleolithic era....</blockquote></p><br>
+				  <a href="html\posts\sewing.html" class="link">Read More</a>
+				</div>
+			</div>
+			<div class="post" id="read">
+				<img src="img\flyer-image1.jpg"  class="post-image">
+				<div class="post-content">
+				 <p><h2><b>Reading </b></h2> </p>
+				<p> Reading is the complex cognitive process
+				  of decoding symbols to derive meaning.
+				   It is a form of language processing.
+				  Success in this process is measured as reading
+				   comprehension. Reading is a means for language acquisition....</p><br>
+				  <a href="html\posts\reading.html" class="link">Read More</a>
+				</div>
+			</div>
+			  <div class="post">
+				<img src="img\2.png"  class="post-image">
+				<div class="post-content">
+					<p><h2><b>Drawing & painting</b></h2> </p>
+					<p>Drawing is a form of visual art in which a person uses various
+					 drawing instruments to mark paper or another two-dimensional medium....</p><br>
+					 <a href="html\posts\drawing.html" class="link">Read More</a>
+				</div>
+			</div>
+		</div>
+		<footer class="third">
+			
+		    <div id="copy">
+			    <div><span id="designed-by"><i> designed by </i></span>&nbsp; ♥ <span class="designer">Shimaa Mohamed</span>♥</div>
+			    <p ><h3><u>@copyrights</u> 2020</p>
+		    </div>	
+
+			<div id="social-icons">
+				<a href="https://www.facebook.com/profile.php?id=100007689103215" class="fa fa-facebook"></a>
+				<a href="#" class="fa fa-twitter"></a>
+				<a href="https://www.linkedin.com/shimaa0mohamed" class="fa fa-linkedin"></a>
+				<a href="https://www.youtube.com/feed/my_videos" class="fa fa-youtube"></a>
+				<a href="https://www.instagram.com/shymmhmd213/" class="fa fa-instagram"></a>
+			</div>
+
+
+		</footer>
+	</div>
+
+    <!-- welcome word    go back  effect  -->
+	<script src="js\typed.js"></script>
+	<script>
+		var typed = new Typed(" .type" , {
+			strings :[
+			          "designer .." ,
+			          "developer .." ,
+			          "freelancer .."] ,
+			typeSpeed: 100 ,
+			backSpeed: 100 ,
+			loop : true 
+
+		    });
+
+	</script>
+
+</body>
+</html>
